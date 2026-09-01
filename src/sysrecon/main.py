@@ -37,6 +37,8 @@ def main():
 
 
     args = parser.parse_args()
+    start = args.start_port
+    end = args.end_port
     # print(args.ports)  # Testing purposes only 
 
 # --ports
@@ -72,8 +74,7 @@ def main():
         sys.exit(1)  # Stops the prog after the invalid port range (System exit)
 
     target = args.target
-    start = args.start_port
-    end = args.end_port
+    
 
     # If they use an invalid target quit and produce error message 
     try:    
