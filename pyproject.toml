@@ -1,8 +1,9 @@
 [project]
-name = "python-cli-project"
+name = "sysrecon"
 version = "0.1.0"
-description = "A Python command-line project"
+description = "A Python CLI TCP port scanner for network reconnaissance"
 requires-python = ">=3.13"
+
 dependencies = [
-    "typer",
+    "colorama",
 ]
