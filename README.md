@@ -65,6 +65,7 @@ Clone the repository and navigate into the project directory:
 ## Validation
 
 - SysRecon was tested in an isolated VM environment, and its results were compared against Nmap using the same target and port configuration. Both tools successfully identified the intentionally exposed TCP port.
+![Nmap vs. Sysrecon validation](screenshots/02-nmap-vs-sysrecon.png)
 
 ## Limitations
 
