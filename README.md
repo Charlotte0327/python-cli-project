@@ -26,7 +26,7 @@ Sysrecon is a Python CLI TCP scanner designed for basic network reconnaissance. 
 - TCP port scanning
 - Host name and IPv4 resolution
 - Individual port selection with `--ports`
-- Custom ranges with `--start-port` and `--end-ports`
+- Custom ranges with `--start-port` and `--end-port`
 - Verbose output with `--verbose`
 - `OPEN`, `CLOSED`, `TIMEOUT`, `ERROR` classification
 - Port range validation
@@ -48,7 +48,7 @@ Clone the repository and navigate into the project directory:
 ```python3 -m venv .venv```
 ```source .venv/bin/activate```
 ### Sysrecon & Dependencies 
-```pip install -e```
+```pip install -e .```
 
 ## Usage
 -Command-Line Arguments
